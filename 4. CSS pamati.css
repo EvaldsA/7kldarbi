@@ -1,0 +1,33 @@
+
+h1{
+    color: rgb(205, 205, 45);
+    background-color: rgb(169, 177, 184);
+    text-decoration: underline;
+    font-family: Arial;
+    text-align: center;
+}
+
+p{
+    background-color: rgb(169, 177, 184);
+    text-align: right;
+    line-height: 30px;
+    letter-spacing: 2px;
+    column-count: 2;
+    column-gap: 60px;
+    text-align: justify;
+}
+
+ul{
+    /* border-width: 4px;
+    border-style: solid;
+    border-color: rgb(208, 71, 99); */
+    border-bottom: 4px dashed rgb(213, 106, 127);
+    border-left: 10px dotted rgb(213, 106, 127);
+    border-bottom-left-radius: 20px;
+}
+
+li{
+    list-style-type:none;
+    font-size: 18pt;
+    text-shadow: 2px 2px lightgrey;
+}

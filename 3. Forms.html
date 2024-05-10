@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas veidošana</title>
+</head>
+
+<body>
+    <h1>HTML Forms</h1>
+
+    <form>
+        <label for="vards">Vārds:</label>
+        <input type="text" id="vards" placeholder="Vārds">
+        <br><br>
+        <label for="epasts">E-pasts:</label>
+        <input type="email" name="" id="epasts">
+        <br><br>
+        <label for="parole">Parole:</label>
+        <input type="password" name="parole" id="parole">
+        <br><br>
+        <p>ievadi savu vecumu:</p>
+        <input type="radio" name="age" id="option1" value="0-10">
+        <label for="option1">0-10</label>
+        <br>
+        <input type="radio" name="age" id="option2" value="11-20">
+        <label for="option2">11-20</label>
+        <br>
+        <input type="radio" name="age" id="option3" value="21-55+">
+        <label for="option3">21-55+</label>
+        <br><br>
+        <label for="jautajums">Drošības jautājums:</label>
+        <select name="jautajums" id="jautajums">
+            <option value="q1">Kādā krāsa ir tavas mīļākās zeķes?</option>
+            <option value="q2">Ja tu būtu dārzenis, kāds tu būtu?</option>
+            <option value="q3">Kāda ir tava drošākā parole?</option>
+        </select>
+        <br><br>
+
+        <label for="atbilde">Drošības atbilde:</label>
+        <input type="text" name="atbilde" id="atbilde">
+
+        <br><br>
+
+        <textarea name="bio" id="bio" cols="100" rows="10" placeholder="Uzraksti par sevi..."></textarea>
+
+        <br><br>
+        <input type="submit" value="Iesūtīt formu">
+        <br>
+    </form>
+</body>
+
+</html>
